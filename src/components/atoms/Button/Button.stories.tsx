@@ -4,9 +4,7 @@ import { Button } from './Button';
 const meta = {
   title: 'Atoms/Button',
   component: Button,
-  args: {
-    children: 'Button',
-  },
+  args: {},
 } satisfies Meta<typeof Button>;
 
 type Story = StoryObj<typeof Button>;

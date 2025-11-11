@@ -1,12 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Checkbox } from '../../ui/checkbox';
+import { Checkbox } from './Checkbox';
 
 const meta = {
   title: 'Atoms/Checkbox',
   component: Checkbox,
-  args: {
-    // children: 'Checkbox',
-  },
+  args: {},
 } satisfies Meta<typeof Checkbox>;
 
 type Story = StoryObj<typeof Checkbox>;
