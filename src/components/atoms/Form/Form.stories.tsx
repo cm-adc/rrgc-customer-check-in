@@ -35,7 +35,6 @@ const ExampleForm = () => {
   });
 
   const onSubmit = (values: ExampleValues) => {
-    // eslint-disable-next-line no-console
     console.log(values);
   };
 

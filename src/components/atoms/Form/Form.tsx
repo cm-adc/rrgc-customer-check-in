@@ -8,7 +8,7 @@ import type {
 
 const Form = <
   TFieldValues extends FieldValues = FieldValues,
-  TContext = any,
+  TContext = unknown,
   TTransformedValues extends FieldValues | undefined = undefined
 >(
   props: FormProviderProps<TFieldValues, TContext, TTransformedValues>
